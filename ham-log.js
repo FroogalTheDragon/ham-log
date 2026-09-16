@@ -53,8 +53,8 @@ function phoneticAlphabetKeys() {
 let qCodeMainDef = "Q-signals are a system of radio shorthand as old as wireless and developed from even older telegraphy codes. Q-signals are a set of\
 abbreviations for common information that save time and allow communication between operators who don’t speak a common language.\
 Modern ham radio uses them extensively. The table below lists the most common Q-signals used by hams. While Q-signals were developed\
-for use by Morse operators, their use is common on phone, as well. You will often hear, \“QRZed?\” as someone asks “Who is calling me?\” or\
-\“I’m getting a little QRM\” from an operator receiving some interference or \“Let’s QSY to 146.55\” as two operators change from a repeater\
+for use by Morse operators, their use is common on phone, as well. You will often hear, “QRZed?” as someone asks “Who is calling me?” or\
+“I’m getting a little QRM” from an operator receiving some interference or “Let’s QSY to 146.55” as two operators change from a repeater\
 frequency to a nearby simplex communications frequency.";
 
 let phoneticAlphabetNotes = "Note: The boldfaced syllables are\
@@ -197,7 +197,7 @@ eventLoop.subscribe(views.refMenuView.chosen, function(_sub, index, gui, eventLo
         print("Bandplans");
     } else if (index === 1) {
         prevView.push(gui.viewDispatcher.currentView);
-        gui.viewDispatcher.switchTo(views.qCodesView);
+        gui.viewDispatcher.switchTo(views.qCodesMainView);
     } else if (index === 2) {
         prevView.push(gui.viewDispatcher.currentView);
         gui.viewDispatcher.switchTo(views.phoneticAlphabetView);
